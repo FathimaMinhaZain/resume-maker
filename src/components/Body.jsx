@@ -12,9 +12,7 @@ export default function Body() {
         email: '',
         phone: '',
         location: '',
-        website: '',
-        linkedin: '',
-        github: ''
+        linkedin: ''
     });
 
     const update = (key, value) => {

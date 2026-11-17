@@ -35,24 +35,12 @@ export default function ContactForm({ contact, update }) {
             placeholder: 'Ketterdam, Fjerda',
             type: 'text',
             autoComplete: 'location'
-        }, {
-            key: 'website',
-            label: 'Website',
-            placeholder: 'www.inejghafa.com',
-            type: 'url',
-            autoComplete: 'website'
-        }, {
+        },{
             key: 'linkedin',
             label: 'LinkedIn',
             placeholder: 'linkedin.com/inejghafa',
             type: 'url',
             autoComplete: 'linkedin'
-        }, {
-            key: 'github',
-            label: 'GitHub',
-            placeholder: 'github.com/inejghafa',
-            type: 'url',
-            autoComplete: 'github'
         }
     ]
 
