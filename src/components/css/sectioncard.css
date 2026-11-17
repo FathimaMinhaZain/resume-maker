@@ -1,0 +1,29 @@
+.section-card {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section-eyebrow {
+    color: #EA4C89;
+    font-size:23px;
+    font-weight: bold;
+}
+
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

@@ -1,0 +1,61 @@
+.editor-container {
+    width: 50%;
+}
+
+/* Form layout */
+.field-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Individual fields */
+.field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.field-container label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Input boxes */
+.field-container input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 12px;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.field-container input:focus {
+    border-color: #EA4C89;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(234, 76, 137, 0.12);
+}
+
+/* Placeholder text */
+.field-container input::placeholder {
+    color: #aaa;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .editor-container {
+        width: 100%;
+    }
+
+    .field-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
