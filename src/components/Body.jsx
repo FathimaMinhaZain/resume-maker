@@ -1,16 +1,14 @@
 import './css/body.css'
 import Editor from './Editor.jsx'
 import { Preview } from './Preview.jsx'
-import { sample } from './sample.js'
 
-
-export default function Body({contact, update, showSample}) {
+export default function Body({contact, update}) {
 
     return (
         <>
             <div className="body-container">
-                <Editor contact={showSample ? sample.contact : contact} update={update} />
-                <Preview contact={showSample ? sample.contact : contact} />
+                <Editor contact={contact} update={update} />
+                <Preview contact={contact} />
             </div>
         </>
     )
