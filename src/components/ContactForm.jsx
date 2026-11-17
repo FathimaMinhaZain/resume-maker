@@ -16,6 +16,13 @@ export default function ContactForm({ contact, update }) {
             placeholder: 'Software Engineer',
             type: 'text',
             autoComplete: 'title'
+        }, 
+        {
+            key: 'phone',
+            label: 'Phone Number',
+            placeholder: '123-456-7890',
+            type: 'tel',
+            autoComplete: 'phone'
         },
         {
             key: 'email',
@@ -23,19 +30,15 @@ export default function ContactForm({ contact, update }) {
             placeholder: 'inejghafa@gmail.com',
             type: 'email',
             autoComplete: 'email'
-        }, {
-            key: 'phone',
-            label: 'Phone Number',
-            placeholder: '123-456-7890',
-            type: 'tel',
-            autoComplete: 'phone'
-        }, {
+        }, 
+        {
             key: 'location',
             label: 'Location',
             placeholder: 'Ketterdam, Fjerda',
             type: 'text',
             autoComplete: 'location'
-        },{
+        }, 
+        {
             key: 'linkedin',
             label: 'LinkedIn',
             placeholder: 'linkedin.com/inejghafa',

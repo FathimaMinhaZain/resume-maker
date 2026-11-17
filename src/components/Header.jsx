@@ -1,7 +1,6 @@
 import './css/header.css'
-import './sampleResume'
 
-export default function Header() {
+export default function Header({ onShowSample }) {
     return (
         <>
             <div className="header-container">
@@ -9,7 +8,7 @@ export default function Header() {
                     <h1>Resume Maker</h1>
                 </div>
                 <div className="header-right">
-                    <button className="btn sample-btn" onClick='getSample'>show sample</button>
+                    <button className="btn sample-btn" onClick={ onShowSample } >show sample</button>
                     <button className="btn clear-btn">Clear</button>
                     <button className="btn download-btn">Download as PDF</button>
                 </div>

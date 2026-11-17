@@ -1,3 +1,5 @@
+import Body from './Body.jsx'
+
 export const sample = {
     contact: {
         name: 'Inej Ghafa',
@@ -7,8 +9,4 @@ export const sample = {
         location: 'Ketterdam',
         linkedin: 'linkedin.com/inejTheWraith'
     }
-}
-
-export function getSample(){
-    return sample
 }

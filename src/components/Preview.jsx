@@ -12,9 +12,9 @@ export function Preview({ contact }) {
                 )}
 
                 <div className="preview-contact">
-                    {contact.location && <span>{contact.location}</span>}
                     {contact.phone && <span>{contact.phone}</span>}
                     {contact.email && <span>{contact.email}</span>}
+                    {contact.location && <span>{contact.location}</span>}
                     {contact.linkedin && <p className="preview-link">{contact.linkedin}</p>}
                 </div>
 
